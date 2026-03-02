@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  background-color: #d4a661;  
+  color: black;
+}
+
+
+.banner {
+  background-color: #8b3a00; 
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 4px solid #d4a661; 
+}
+
+.banner h1 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 32px;
+  color: black;
+}
+
+
+.main-nav {
+  background-color: #d4a661; 
+  display: flex;
+  justify-content: center;
+  gap: 30px;               
+  padding: 15px 0;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: #24691f;         
+  font-weight: bold;
+  font-size: 16px;
+  font-family: Georgia, serif;
+}
+
+
+.content {
+  max-width: 800px;
+  margin: 20px ;     
+  padding: 0 20px;
+}
+
+.content h2 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.content p {
+  margin: 8px ;
+  font-size: 16px;
+  line-height: 1.4;
+}
+.content .color{
+      color: rgb(99, 48, 27);
+}

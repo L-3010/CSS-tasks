@@ -1,0 +1,37 @@
+body {
+    background-color: #fe8efe; /* pink background */
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+h3{
+  display: flex;
+  margin: 5px;
+}
+.article-container {
+    position: relative;
+    display: flex;           
+    gap: 10px;              
+    margin-bottom: 20px;    
+    overflow-x: auto;        
+    padding-bottom: 12px;    
+    padding-top: 5px;
+}
+
+
+.box {
+  width: 250px;
+  height: 100px;
+  background-color: #ffffff;
+  padding: 10px;
+  border: 1px solid #000000;
+  overflow-y: scroll;
+}
+
+.paragraph-container {
+  border-bottom:3px solid black;
+  border-top: 3px solid black;
+  padding: 5px;
+  height: 100px;
+  overflow-y:scroll; 
+   
+}

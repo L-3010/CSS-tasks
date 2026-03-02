@@ -1,0 +1,42 @@
+
+table{
+border: 1px solid black;
+width: 500px;
+margin: 0 auto;
+border-collapse: separate;
+border-spacing: 5px;
+}
+td,th{
+border: 1px solid black;
+padding: 5px;
+margin: 5px;
+}
+
+p{
+text-align: center;
+font-size: 20px;
+}
+
+hr{
+width: 500px;
+margin-top: 5px;
+}
+
+.title{
+margin-top: 150px;
+}
+
+#right{
+  text-align: right;
+  font-weight: bold;
+  background-color: yellow;
+}
+#ninja-A{
+  text-align: center;
+  background-color:pink;
+}
+#ninja-C{
+  text-align: center;
+  font-weight: bold;
+  
+}
